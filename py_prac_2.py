@@ -31,18 +31,17 @@ print(phrase1)
 
 
 # Lists
+# Initalizing a list
 animals = ["penguins", "kitties", "puppers"]
 print(animals)
 
+# Accessing items in list
 # Prints first item in list
 # Note: Lists always start at value zero
 print(animals[0])
 
 # Prints last item in list
 print(animals[-1])
-
-# Finding the length of a list
-print(len(animals))
 
 # "Slicing" Lists
 # Prints first 2 items in list
@@ -52,3 +51,15 @@ print(animals[:2])
 
 # Prints starting from the second item and prints until end of the list
 print(animals[1:])
+
+# Finding the length of a list
+print(len(animals))
+
+# Appending items to the list
+
+# Removing items from the list using location
+
+# Removing items from the list using value
+
+# Modifying value of item in list by location
+
