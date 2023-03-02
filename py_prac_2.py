@@ -55,11 +55,45 @@ print(animals[1:])
 # Finding the length of a list
 print(len(animals))
 
-# Appending items to the list
+# Appending items to the end of the list
+animals.append("duckers")
+print(animals)
+
+# Insert items into the middle of the list
+animals.insert(2, "sheepsies")
+print(animals)
+
+# Making a "deep" copy of a list
+animalsCopy = animals[:]
+print("Printing original list: ", animals)
+print("Printing copied list: ", animalsCopy)
 
 # Removing items from the list using location
+del animals[1]
+print(animals)
+
+animals.pop(-1)
+print(animals)
 
 # Removing items from the list using value
+animals.remove("sheepsies")
+print(animals)
+
+# Showing original vs. copied lists
+print("Printing original list: ", animals)
+print("Printing copied list: ", animalsCopy)
+print()
+
+# Shallow vs. Deep Copies
+animalsShallow = animals
+
+print("Printing original list: ", animals)
+print("Printing deep copied list: ", animalsCopy)
+print("Printing shallow copied list: ", animalsShallow)
+print()
 
 # Modifying value of item in list by location
-
+animalsShallow[1] = "duckers"
+print("Printing original list: ", animals)
+print("Printing deep copied list: ", animalsCopy)
+print("Printing shallow copied list: ", animalsShallow)
