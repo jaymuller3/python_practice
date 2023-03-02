@@ -1,5 +1,5 @@
 # Python Practice 2: 
-#   Strings, Lists, Conditionals, Loops, Dictionaries
+#   Strings, Lists
 
 
 # Strings
@@ -86,7 +86,6 @@ print()
 
 # Shallow vs. Deep Copies
 animalsShallow = animals
-
 print("Printing original list: ", animals)
 print("Printing deep copied list: ", animalsCopy)
 print("Printing shallow copied list: ", animalsShallow)
