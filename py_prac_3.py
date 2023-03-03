@@ -1,5 +1,5 @@
 # Python Practice 3: 
-#   Conditionals, Loops, Dictionaries
+#   Conditionals, Loops
 
 
 # Initialize some values and lists
@@ -101,13 +101,3 @@ while found == False and i < len(animals):
 
     if i >= len(animals):
         print("I'm sorry, the word you need is not in this list.")
-
-
-# Dictionaries
-animalDict = {"penguins": "cute", "kitties": "warm", "puppers": "sweet", "sheepsies": "kind"}
-print(animalDict)
-print("According to the animal dictionary, penguins are: " \
-      + "\"" + animalDict["penguins"] + "\"!")
-# Sidenote: in the string above, note the escape character \" 
-# to add quotes to the string
-
