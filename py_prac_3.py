@@ -68,7 +68,7 @@ for i in range(len(animals)):
     print("\t" + animals[i])
 print("That's all of them!")
 
-# While-loop with Flag
+# While-loop with Boolean Flag
 # Example 1
 found = False
 wordNeeded = "ducker"
@@ -101,3 +101,14 @@ while found == False and i < len(animals):
 
     if i >= len(animals):
         print("I'm sorry, the word you need is not in this list.")
+
+# P1: Create a list of 10 colors and iterate through the list, printing
+#     each item using a for loop
+
+# P2
+#   A: Create a while loop using a boolean flag that iterates through
+#      the colors list and stops when chosen color within the list is found
+
+#   B: Iterate through the list again using a color not in the list
+#      and notify the user that the color does not exist in the list
+

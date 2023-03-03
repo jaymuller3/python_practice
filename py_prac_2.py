@@ -96,3 +96,18 @@ animalsShallow[1] = "duckers"
 print("Printing original list: ", animals)
 print("Printing deep copied list: ", animalsCopy)
 print("Printing shallow copied list: ", animalsShallow)
+
+
+# P1: Create a list of 5 colors
+
+# P2: Create a deep copy of list
+
+# P3: Append a color to the original list
+
+# P4: Remove a color from the copied list
+
+# P5: Print both lists to show that copied list is a deep copy
+
+# P6: Print a slice of original list from the second to fourth items
+
+# P7: Print the length of the original list

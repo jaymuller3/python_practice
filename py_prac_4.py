@@ -31,3 +31,28 @@ print("Animal name - Trait ")
 print("--------------------")
 for animal, trait in animalDict.items():
     print(animal + " - " + trait)
+
+
+# Using conditional to confirm data is stored within dictionary
+# Example 1 - item is found within the dictionary
+word = "penguins"
+
+if word in animalDict:
+    print(word.title() + " are " + animalDict[word] + "!") 
+else:
+    print("Sorry this word does not exist within this dictionary.")
+
+# Example 2 - item is not found within the dictionary
+word = "porgs"
+
+if word in animalDict:
+    print(word.title() + " are " + animalDict[word] + "!") 
+else:
+    print("Sorry this word does not exist within this dictionary.")
+
+# Example 3 - item is confirmed not to be in the dictionary
+if word not in animalDict:
+    print("Confirmation that this word does not exist within "
+          "this dictionary.") 
+else:
+    print("Despite their freakiness, " + word + " are in this dictionary.")
