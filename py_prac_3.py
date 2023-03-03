@@ -41,6 +41,7 @@ else:
 
 
 # Loops
+# Note: Loops will continue looping until condition is no longer true.
 # While-loops
 # While-loop with Counter
 counter = 0
@@ -53,19 +54,60 @@ while counter < 10:
 print("While-loop finished.")
 
 # For-loop
+# Example 1
 subNum = num1
 for i in range(10):
     subNum -= 5
     print("Loop " + str(i + 1) + ":", subNum)
 print("For-loop finished.")
 
+# Example 2
+# Iterating through a list
+print("A list of animals:")
+for i in range(len(animals)):
+    print("\t" + animals[i])
+print("That's all of them!")
+
 # While-loop with Flag
+# Example 1
+found = False
+wordNeeded = "ducker"
+i = 0
+while found == False or i < len(animals):
+    i += 1
+    if wordNeeded == animals[i]:
+        print("Found "+ wordNeeded + " at position " + str(i + 1) + "!")
+        found = True
+        break
+    else: 
+        print("This is not the word that is needed.")
+    
+    if i >= len(animals):
+        print("I'm sorry, the word you need is not in this list.")
 
+# Example 2
+found = False
+wordNeeded = "porg"
+i = 0
+while found == False and i < len(animals):
+    if wordNeeded == animals[i]:
+        print("Found "+ wordNeeded + " at position " + str(i + 1) + "!")
+        found = True
+        break
+    else: 
+        print("This is not the word that is needed.")
+    
+    i += 1
 
-
-
-
-
+    if i >= len(animals):
+        print("I'm sorry, the word you need is not in this list.")
 
 
 # Dictionaries
+animalDict = {"penguins": "cute", "kitties": "warm", "puppers": "sweet", "sheepsies": "kind"}
+print(animalDict)
+print("According to the animal dictionary, penguins are: " \
+      + "\"" + animalDict["penguins"] + "\"!")
+# Sidenote: in the string above, note the escape character \" 
+# to add quotes to the string
+
