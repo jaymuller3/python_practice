@@ -13,7 +13,7 @@ print()
 # Contiditionals
 # If-statements
 if word1 != word2:
-    print("A " + word1 + " better than a " + word2 + ".")
+    print("A " + word1 + " is better than a " + word2 + ".")
 
 # If-else statements
 if word1 == word2:
@@ -35,24 +35,34 @@ if num1 < 10:
 elif num1 < 100:
     print("This number is at least ten but less than one hundred.")
 elif num1 < 1000:
-    print("This number is at least one hundred, but less than one \
-          one thousand.")
+    print("This number is at least one hundred, but less than one thousand.")
 else:
     print("This number is greater than one thousand.")
 
 
 # Loops
 # While-loops
-# While-loop with Flag
-
 # While-loop with Counter
+counter = 0
+subNum = num1
+while counter < 10:
+    subNum -= 5
+    print("Loop " + str(counter + 1) + ":", subNum)
 
-
-# Loop with Conditionals
-
-
+    counter += 1
+print("While-loop finished.")
 
 # For-loop
+subNum = num1
+for i in range(10):
+    subNum -= 5
+    print("Loop " + str(i + 1) + ":", subNum)
+print("For-loop finished.")
+
+# While-loop with Flag
+
+
+
 
 
 
