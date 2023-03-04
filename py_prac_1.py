@@ -95,5 +95,6 @@ print("Ex 18: " + str(x) + " ^ " + str(y) + " = " + str(s))
 # P1: Calculate 5% sales tax on item costing $9.99
 
 # P2: Find maximum value that a 32-bit number can have
+# Hint: the starting value of a binary number is zero
 
 # P3: Find the remainder of 23 divided by 7

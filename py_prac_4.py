@@ -56,3 +56,12 @@ if word not in animalDict:
           "this dictionary.") 
 else:
     print("Despite their freakiness, " + word + " are in this dictionary.")
+
+
+# P2
+#   A: Create a dictionary using the name of podcasts as the key, and
+#      a list of the hosts of the podcast as the value
+#  
+#   B: Print the key-value pairs, but with the key as the heading, and
+#      each host as an individual printed separately, using title-case
+#      for the name of both the podcast and each host

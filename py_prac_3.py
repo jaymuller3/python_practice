@@ -1,5 +1,5 @@
 # Python Practice 3: 
-#   Conditionals, Loops
+#   Conditionals (cont), Loops
 
 
 # Initialize some values and lists
@@ -112,3 +112,11 @@ while found == False and i < len(animals):
 #   B: Iterate through the list again using a color not in the list
 #      and notify the user that the color does not exist in the list
 
+# P3
+#   A: Create two lists, the first a list of 10 colors.  The second,
+#      a list of 3 favorite colors, two of which are in the original 
+#      list of colors, and one that is not.
+#
+#   B: Iterate through both lists to determine which favorite colors
+#      appear in the colors list, and print both the color name and
+#      the position in which the color appears.
